@@ -4,7 +4,7 @@ from requests_oauthlib import OAuth2Session
 
 OAUTH2_CLIENT_ID = os.environ['442558652713402379']
 OAUTH2_CLIENT_SECRET = os.environ['edCFStM2ihsjALze0q3j71NRpsHkMBHO']
-OAUTH2_REDIRECT_URI = 'http://localhost:5000/callback'
+OAUTH2_REDIRECT_URI = 'https://github.com/MasterDeveIoper/Discord-Bot'
 
 API_BASE_URL = os.environ.get('API_BASE_URL', 'https://discordapp.com/api')
 AUTHORIZATION_BASE_URL = API_BASE_URL + '/oauth2/authorize'
