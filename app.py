@@ -8,7 +8,7 @@ OAUTH2_REDIRECT_URI = 'https://github.com/MasterDeveIoper/Discord-Bot'
 
 API_BASE_URL = os.environ.get('API_BASE_URL', 'https://discordapp.com/api')
 AUTHORIZATION_BASE_URL = API_BASE_URL + '/oauth2/authorize'
-TOKEN_URL = API_BASE_URL + '/oauth2/token'
+TOKEN_URL = API_BASE_URL + 'NDQyNTU4NjUyNzEzNDAyMzc5.DdAolA.K1A-jLR0cWFtDJPb3sFXNDTSwxg'
 
 app = Flask(__name__)
 app.debug = True
